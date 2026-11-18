@@ -1,5 +1,7 @@
 # AI remote job finder, powered by StillOpen
 
+[![mcptry](https://mcptry.com/badge/work.stillopen/jobs)](https://mcptry.com/servers/work.stillopen/jobs)
+
 A small, dependency-free Python example of the [StillOpen](https://stillopen.work)
 API: search fully-remote jobs, re-check each one in a single batch call, and
 print **the evidence that it is still open** — not just the listing.
