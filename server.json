@@ -3,12 +3,21 @@
   "name": "work.stillopen/jobs",
   "title": "StillOpen remote jobs",
   "description": "Remote jobs re-checked against each employer's own ATS, with evidence they're still open.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://stillopen.work/agents",
   "repository": {
     "url": "https://github.com/vix-io/stillopen-demo",
     "source": "github"
   },
+  "icons": [
+    {
+      "src": "https://stillopen.work/apple-touch-icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "180x180"
+      ]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",
