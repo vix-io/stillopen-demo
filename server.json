@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "work.stillopen/jobs",
+  "title": "StillOpen remote jobs",
+  "description": "Remote jobs re-checked against each employer's own ATS, with evidence they're still open.",
+  "version": "1.0.0",
+  "websiteUrl": "https://stillopen.work/agents",
+  "repository": {
+    "url": "https://github.com/vix-io/stillopen-demo",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://stillopen.work/api/v1/mcp"
+    }
+  ]
+}
